@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".InicioSesion" />
-        <activity android:name=".Menu"></activity>
+        <activity android:name=".Menu" />
+        <activity android:name=".Lugares"></activity>
     </application>
 
 </manifest>

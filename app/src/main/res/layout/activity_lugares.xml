@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="desappmov.chetuplaceapp.Lugares">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleType="centerCrop"/>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="#F5ECCE"
+            card_view:cardElevation="10dp"
+            android:layout_below="@+id/card2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:onClick="Comida">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/comida"
+                />
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Comida"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:textColor="#ffe3e3e3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="#F5ECCE"
+            card_view:cardElevation="10dp"
+            android:layout_below="@+id/card2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:onClick="Plazas">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/plazas"
+                />
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Plazas Comerciales"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:textColor="#ffe3e3e3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="#F5ECCE"
+            card_view:cardElevation="10dp"
+            android:layout_below="@+id/card2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:onClick="lugares">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lugaresemb"
+                />
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Lugares Emblematicos"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:textColor="#ffe3e3e3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="#F5ECCE"
+            card_view:cardElevation="10dp"
+            android:layout_below="@+id/card2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:onClick="playas">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/playasqroo"
+                />
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Playas"
+                android:layout_gravity="bottom"
+                android:background="#8c000000"
+                android:textColor="#ffe3e3e3"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
