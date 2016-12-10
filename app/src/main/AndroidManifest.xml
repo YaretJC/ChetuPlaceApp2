@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InicioSesion"></activity>
+        <activity android:name=".InicioSesion" />
+        <activity android:name=".Menu"></activity>
     </application>
 
 </manifest>
