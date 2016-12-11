@@ -72,46 +72,6 @@ public class Menu extends AppCompatActivity {
 
 
     }
-    /*
-    //CREACION DEL MENU ACTIONBAR
-    @Override
-    public boolean onCreateOptionsMenu(android.view.Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-        if (id == R.id.opc) {
-
-           // Toast.makeText(this, "Se ha cerrado la sesión", Toast.LENGTH_LONG).show();
-            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-            dialogo1.setTitle("Cerrar Sesion");
-            dialogo1.setMessage("¿Desea salir de ChetuPlace?");
-            dialogo1.setCancelable(false);
-            dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    Intent ListSong = new Intent(getApplicationContext(), InicioSesion.class);
-                    startActivity(ListSong);
-
-                }
-
-            });
-            dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                }
-            });
-            dialogo1.show();
-
-        }
-
-        return super.onOptionsItemSelected(item);
-
-    }*/
 
 
 }
