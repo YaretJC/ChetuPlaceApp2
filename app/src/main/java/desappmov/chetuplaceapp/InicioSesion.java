@@ -21,6 +21,13 @@ public class InicioSesion extends Activity{
             }
         });
 
+        //pasa al Siguiente layaut Inicio
+        findViewById(R.id.btnRegistrar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(InicioSesion.this, registroUsuario.class));
+            }
+        });
     }
 
 
