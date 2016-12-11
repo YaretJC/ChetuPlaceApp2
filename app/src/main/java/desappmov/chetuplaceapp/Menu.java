@@ -16,11 +16,27 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        //pasa al Siguiente layaut Inicio
+        //pasa a otro layaut
         findViewById(R.id.txtLugares).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Menu.this, Lugares.class));
+            }
+        });
+
+        //pasa a otro layaut
+        findViewById(R.id.txtPreferencias).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Menu.this, listadoPreferencias.class));
+            }
+        });
+
+        //pasa a otro layaut
+        findViewById(R.id.txtCreaciones).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Menu.this,Creaciones.class));
             }
         });
     }

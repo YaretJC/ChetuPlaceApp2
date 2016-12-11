@@ -18,7 +18,12 @@
         <activity android:name=".InicioSesion" />
         <activity android:name=".Menu" />
         <activity android:name=".Lugares" />
-        <activity android:name=".registroUsuario"></activity>
+        <activity android:name=".registroUsuario" />
+        <activity android:name=".listadoLugar" />
+        <activity android:name=".lugarEspecifico" />
+        <activity android:name=".Creaciones" />
+        <activity android:name=".nuevaCreacion" />
+        <activity android:name=".listadoPreferencias"></activity>
     </application>
 
 </manifest>
