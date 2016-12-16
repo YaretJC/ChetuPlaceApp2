@@ -34,10 +34,10 @@
             android:layout_marginBottom="8dp"/>
 
         <TextView
-            android:id="@+id/titulo"
+            android:id="@+id/Categoria"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Titulo"
+            android:text="Categoria"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_marginBottom="48dp"
             android:layout_toRightOf="@+id/fab"
@@ -47,7 +47,7 @@
 
     </RelativeLayout>
 
-    <!-- Datos de la meta -->
+    <!-- Datos de la creacion -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -58,77 +58,53 @@
         android:paddingTop="@dimen/activity_vertical_margin">
 
 
+
+        <!-- Categoria -->
         <TextView
-            android:id="@+id/categoria"
+
+            android:id="@+id/Categoria"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/categoria_label"
-            android:text="Categoría"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_marginBottom="16dp" />
+            android:text="Categoria"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
 
+        <!-- nombreLugar -->
         <TextView
-            android:id="@+id/fecha"
+            android:id="@+id/nombreLugar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/fecha_label"
-            android:text="Fecha"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_marginBottom="16dp" />
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="nombreLugar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorAccent" />
 
-        <TextView
-            android:id="@+id/prioridad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/prioridad_label"
-            android:text="Prioridad"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
-
+        <!-- descripcion -->
         <TextView
             android:id="@+id/descripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/descripcion_label"
-            android:text="Descripción"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:layout_marginBottom="16dp" />
-
-
-        <TextView
-            android:id="@+id/descripcion_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Descripción"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="descripcion"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/black" />
 
+        <!-- ubicacion -->
         <TextView
-            android:id="@+id/fecha_label"
+            android:id="@+id/ubicacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/descripcion"
-            android:text="Fecha Límite"
+            android:text="ubicacion"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:id="@+id/categoria_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/fecha"
-            android:text="Categoría"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:id="@+id/prioridad_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/categoria"
-            android:text="Prioridad"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@android:color/black" />
+            android:textStyle="italic"
+            android:layout_above="@+id/Categoria"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="58dp" />
     </RelativeLayout>
 </LinearLayout>
