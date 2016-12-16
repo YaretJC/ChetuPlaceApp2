@@ -23,7 +23,8 @@
         <activity android:name=".lugarEspecifico" />
         <activity android:name=".Creaciones" />
         <activity android:name=".nuevaCreacion" />
-        <activity android:name=".listadoPreferencias"></activity>
+        <activity android:name=".listadoPreferencias" />
+        <activity android:name=".DetalleCreacion"></activity>
     </application>
 
 </manifest>

@@ -17,10 +17,16 @@ public class Creaciones extends AppCompatActivity {
         setContentView(R.layout.activity_creaciones);
 
         //pasa a otro layaut
-        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+       /* findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Creaciones.this, nuevaCreacion.class));
+            }
+        });*/
+        findViewById(R.id.pasar).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Creaciones.this,DetalleCreacion.class));
             }
         });
     }
